@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#d61d22",
+    "navigationBarTitleText": "skillShop",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#d61d22",
+    "backgroundColor": "#f1f1f1",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "全部",
+        "iconPath": "/pages/image/icon2.png",
+        "selectedIconPath": "/pages/image/icon2s.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/image/icon1.png",
+        "selectedIconPath": "/pages/image/icon1s.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "/pages/image/icon3.png",
+        "selectedIconPath": "/pages/image/icon3s.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

@@ -1,0 +1,11 @@
+<template name="header">
+ <view class="header"> 
+ <text class="title"> {{header.title}} </text>
+ </view>
+</template>
+
+<template name="footer">
+ <view class="footer"> 
+
+ </view>
+</template>
