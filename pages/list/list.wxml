@@ -1,7 +1,0 @@
-<!--index.wxml-->
-<view>
-<import src="/pages/template/common.wxml"/>
-<template is="msgItem" data="{{item}}"/>
-  99999999
-  <view   class="lsit">{{myText}}</view> 
-</view>

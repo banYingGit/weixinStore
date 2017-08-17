@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view>
+  <view class="templateBar">
+    <text class="templateText {{bar.class1}}" id="bar1" bindtap="barName">jquery 系列</text>
+    <text class="templateText {{bar.class2}}" id="bar2" bindtap="barName">vue 系列</text>
+    <text class="templateText  {{bar.class3}}" id="bar3" bindtap="barName">其他系列</text>
+  </view>
+  <view class="templateList" wx:if="{{box.show1}}">
+    <view class="templateBox" wx:for="{{jqueryData}}" wx:key="1">
+      <image src="{{item.src}}" class="img" />
+      <view class="info">
+        <view class="title">{{item.title}}</view>
+        <view class="money">{{item.money}}起</view>
+      </view>
+    </view>
+  </view>
+  <view class="templateList" wx:if="{{box.show2}}">
+    <view class="templateBox" wx:for="{{vueData}}" wx:key="1">
+    </view>
+  </view>
+  <view class="templateList" wx:if="{{box.show3}}">
+    <view class="templateBox" wx:for="{{otherData}}" wx:key="1">
+    </view>
+  </view>
+</view>

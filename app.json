@@ -2,23 +2,24 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/list/list"
+    "pages/process/process"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#d61d22",
-    "navigationBarTitleText": "skillShop",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTitleText": "博思菲特",
     "navigationBarTextStyle": "#fff",
+    "backgroundColor":"#f1f1f1",
     "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#000",
     "selectedColor": "#d61d22",
-    "backgroundColor": "#f1f1f1",
-    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "borderStyle": "back",
     "list": [
       {
-        "pagePath": "pages/list/list",
-        "text": "全部",
+        "pagePath": "pages/process/process",
+        "text": "定制",
         "iconPath": "/pages/image/icon2.png",
         "selectedIconPath": "/pages/image/icon2s.png"
       },

@@ -15,7 +15,9 @@
   width: 94%;
   height: 70rpx;
   padding: 0 3%;
+  overflow: hidden;
   border: solid 1rpx #eee;
+  background: #fff;
   line-height: 70rpx;
   font-size: 24rpx;
 }
@@ -43,5 +45,102 @@
   display: block;
   float: left;
   width: 77%;
-  padding-left:3%;
+  height: 40rpx;
+  padding-left: 3%;
+}
+
+.iconList {
+  width: 100%;
+  height: 160rpx;
+  border-bottom: solid 1rpx #eee;
+}
+
+.iconList .icon {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: solid 1rpx #eee;
+}
+
+.iconList .icon:nth-child(1) {
+  border: none;
+}
+
+.iconList .icon .iconImage {
+  display: block;
+  width: 45%;
+  height: 45%;
+  margin: 11% auto;
+}
+
+.iconList .icon .iconText {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 24rpx;
+  color: #333;
+}
+
+.mian {
+  width: 100%;
+  padding-top: 40rpx;
+  background: #f9f9f9;
+}
+
+.mian .title {
+  position: relative;
+  width: 100%;
+  height: 80rpx;
+  border-top: solid 1rpx #eee;
+  background: #fff;
+  line-height: 80rpx;
+  text-align: center;
+  color: #222;
+  font-size: 24rpx;
+}
+
+.mian .title::after {
+  position: absolute;
+  bottom: 0;
+  left: 46%;
+  width: 8%;
+  height: 3rpx;
+  background: #222;
+  content: ' ';
+}
+
+.goods-list {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.goods-list .goods {
+  position: relative;
+  display: block;
+  float: left;
+  width: 50%;
+  height: 180rpx;
+  border-top: solid 1rpx #eee;
+}
+
+.goods-list  .goods  .goodsImg {
+  display: block;
+  width: 90%;
+  height: 150rpx;
+  margin: 15rpx auto;
+}
+
+.goods-list  .goods  .goodsText {
+  position: absolute;
+  top: 15rpx;
+  left: 5%;
+  width: 90%;
+  height: 150rpx;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 160rpx;
+  font-size: 32rpx;
+  color: #fff;
 }

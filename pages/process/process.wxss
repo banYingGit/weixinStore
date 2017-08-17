@@ -1,0 +1,79 @@
+.templateBar {
+  width: 100%;
+  height: 80rpx;
+  border-bottom: solid 1px #e1e1e1;
+  background: #fff;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.templateBar .templateText {
+  position: relative;
+  float: left;
+  width: 33.33%;
+  height: 80rpx;
+  font-size: 26rpx;
+  color: #777;
+}
+
+.templateBar .templateText:before {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 2rpx;
+  height: 50%;
+  background: #e1e1e1;
+  content: '';
+}
+
+.templateBar .templateText:nth-child(1)::before {
+  display: none;
+}
+
+.templateBar .templateText.active {
+  color: #222;
+}
+
+.templateList {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.templateBox {
+  width: 100%;
+  height: 250rpx;
+  margin-top: 30rpx;
+}
+
+.templateBox  .img {
+  display: block;
+  width: 100%;
+  height: 200rpx;
+}
+
+.templateBox .info {
+  width: 95%;
+  height: 50rpx;
+  margin: 0 auto;
+    line-height: 50rpx;
+}
+
+.templateBox .info  .title {
+  display: block;
+  float: left;
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 32rpx;
+}
+
+.templateBox .info  .money {
+  display: block;
+  float: right;
+  width: 40%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 28rpx;
+  color: #d61e1e;
+  text-align: right;
+}
